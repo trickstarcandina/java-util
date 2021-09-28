@@ -1,4 +1,5 @@
-public static void main(String[] args) throws IOException {
+public class Main {
+    public static void main(String[] args) throws IOException {
         FileInputStream file = new FileInputStream(new File("E:/Telegram Desktop/Tiền hoa hồng PVCB.xlsx")); //path location file
         Workbook workbook = new XSSFWorkbook(file);
         //or Workbook workbook = new XSSFWorkbook(file.getInputStream());
@@ -25,7 +26,8 @@ public static void main(String[] args) throws IOException {
                     case FORMULA:
                         data.get(i).add(cell.getCellFormula() + "");
                         break;
-                    default: data.get(new Integer(i)).add(" ");
+                    default:
+                        data.get(new Integer(i)).add(" ");
                 }
             }
             i++;
@@ -42,9 +44,10 @@ public static void main(String[] args) throws IOException {
 //            }
 //        }
 
-        for(int j=1;j< data.size();j++){
-            for(String s : data.get(j)){
+        for (int j = 1; j < data.size(); j++) {
+            for (String s : data.get(j)) {
                 System.out.println(s);
             }
         }
+    }
 }
