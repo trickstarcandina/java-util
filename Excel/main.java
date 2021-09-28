@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) throws IOException {
-        FileInputStream file = new FileInputStream(new File("E:/Telegram Desktop/Tiền hoa hồng PVCB.xlsx")); //path location file
+        FileInputStream file = new FileInputStream(new File("E:/abc.xlsx")); //path location file
         Workbook workbook = new XSSFWorkbook(file);
         //or Workbook workbook = new XSSFWorkbook(file.getInputStream());
         Sheet sheet = workbook.getSheetAt(0);
