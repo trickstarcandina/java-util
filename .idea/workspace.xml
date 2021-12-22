@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9462dd5-ed26-4d4d-a6f1-01620ee11653" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Excel/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Excel/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captcha/Main/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Captcha/Main/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captcha/Main/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Captcha/Main/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Captcha/test.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MongoDbSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MongoDbSpringBoot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mongodbspringboot.MongoDbSpringBootApplication" />
@@ -52,6 +66,7 @@
       <updated>1632842497085</updated>
       <workItem from="1632842505248" duration="391000" />
       <workItem from="1632843138790" duration="19000" />
+      <workItem from="1640142793142" duration="85000" />
     </task>
     <servers />
   </component>
